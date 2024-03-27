@@ -3,7 +3,8 @@ package programmers;
 import java.util.Arrays;
 
 public class Marathon {
-    public String solution(String[] participant, String[] completion){
+    public String solution(String[] participant, String[] completion) {
+        String answer = "";
         //1.배열을 정렬하기
         Arrays.sort( participant );
         Arrays.sort( completion );
@@ -12,7 +13,6 @@ public class Marathon {
         int i = 0;
         for (; i < completion.length; i++) {
             if (!participant[i].equals( completion[i] )) break;
-
         }
         return participant[i];
     }
