@@ -13,6 +13,6 @@ public class P11270re {
             sum += cNum[i] - '0';
         }
         System.out.println( "sum = " + sum );
-        asd
+
     }
 }
