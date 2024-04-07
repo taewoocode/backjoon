@@ -34,6 +34,7 @@ public class P1940_주몽 {
         }
         System.out.println( count );
         bf.close();
-
+        asd
+        asdasd
     }
 }
